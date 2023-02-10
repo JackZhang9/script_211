@@ -1,6 +1,7 @@
 # script_211
 一个爬虫脚本，用正则表达式，可以翻页爬取网页的url,title,date等信息
-整体思路是：
+
+##整体思路是：
 首先去网站找到一个可以爬取的网站的url，然后用requests.get()方法，获得html，用text方法打开html,
 然后用正则表达式re模块的findall()方法捕获需要的字符串，如url,title,date等，
 这样可以爬取一个网页的信息，
